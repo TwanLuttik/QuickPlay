@@ -1,0 +1,43 @@
+{
+  "name": "quickplay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve --host 0.0.0.0 --port 80",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "core-js": "^2.6.5",
+    "howler": "^2.1.1",
+    "jdataview": "^2.5.0",
+    "node-sass": "^4.12.0",
+    "pulse-framework": "^1.1.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-audio-visual": "^1.3.0",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "@fortawesome/fontawesome-pro": "^5.8.2",
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "electron": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "font-awesome": "^4.7.0",
+    "vue-cli-plugin-electron-builder": "^1.2.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
