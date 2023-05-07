@@ -37,7 +37,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "font-awesome": "^4.7.0",
-    "vue-cli-plugin-electron-builder": "^1.2.0",
+    "vue-cli-plugin-electron-builder": "^2.1.1",
     "vue-template-compiler": "^2.5.21"
   }
 }
